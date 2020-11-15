@@ -11,3 +11,7 @@ Contacts:
 - [Stack Overflow](https://stackoverflow.com/users/774554/simon-laing)
 - [GitHub](https://github.com/laingsimon)
 - [Scott logic](https://blog.scottlogic.com/slaing/)
+
+Highlights:
+- [Unit testing, my story](unit-testing-my-story)
+- [Docker, in a corporate environment](docker-in-a-corporate-environment)
