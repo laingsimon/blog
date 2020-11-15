@@ -1,6 +1,6 @@
 # Simon Laing
 
-I don't have the time to maintain a blog, perse. At the same time I have lots of experience and experiences that I can share for the benefit of others.
+I don't have the time to maintain a blog, per se. At the same time I have lots of experience and experiences that I can share for the benefit of others.
 
 I'm a developer at heart, that's what I'm good at and what I enjoy. Here you'll find the musings of a developer as they encounter challenges, discover opportunities and other general chatter.
 
