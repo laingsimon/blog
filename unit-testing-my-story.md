@@ -1,4 +1,4 @@
-# Unit testing, my journey
+# Unit testing, my story
 
 I graduated from a software engineer degree in 2005. Software development was a well understood subject and the industry was booming, great, I landed on my feed.
 
