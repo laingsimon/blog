@@ -17,3 +17,5 @@ Contacts:
 Highlights:
 - [Unit testing, my story](unit-testing-my-story)
 - [Docker, in a corporate environment](docker-in-a-corporate-environment)
+- [Resources](resources)
+- [All articles](https://github.com/laingsimon/blog)
