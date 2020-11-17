@@ -15,3 +15,4 @@ Contacts:
 Highlights:
 - [Unit testing, my story](unit-testing-my-story)
 - [Docker, in a corporate environment](docker-in-a-corporate-environment)
+- [Resources](resources)
