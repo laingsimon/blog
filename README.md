@@ -8,13 +8,13 @@ Take a look at the projects I've kicked off on GitHub if you'd like to get a fla
 
 I have a background mainly in dotnet (framework and more recently core), web and windows application based. I focus on quality, detail and clarity. I have an interest in security, performance and the right way of doing things.
 
-Contacts:
+### Contacts:
 - [LinkedIn](https://www.linkedin.com/in/simon-laing-780a1b141)
 - [Stack Overflow](https://stackoverflow.com/users/774554/simon-laing)
 - [GitHub](https://github.com/laingsimon)
 - [Scott logic](https://blog.scottlogic.com/slaing/)
 
-Highlights:
+### Highlights:
 - [Unit testing, my story](unit-testing-my-story)
 - [Docker, in a corporate environment](docker-in-a-corporate-environment)
 - [Resources](resources)
