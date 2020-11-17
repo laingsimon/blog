@@ -6,6 +6,8 @@ I'm a developer at heart, that's what I'm good at and what I enjoy. Here you'll 
 
 Take a look at the projects I've kicked off on GitHub if you'd like to get a flavour of who I am, what I've done and what I aspire to.
 
+I have a background mainly in dotnet (framework and more recently core), web and windows application based. I focus on quality, detail and clarity. I have an interest in security, performance and the right way of doing things.
+
 Contacts:
 - [LinkedIn](https://www.linkedin.com/in/simon-laing-780a1b141)
 - [Stack Overflow](https://stackoverflow.com/users/774554/simon-laing)
