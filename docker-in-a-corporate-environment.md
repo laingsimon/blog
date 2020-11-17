@@ -70,3 +70,7 @@ In short. It's not possible. The Unix container isn't joined to the domain, so i
 Instead, run the site via the dotnet command that you'd normally run in Windows. Update any other containers to communicate with this service using the `host.docker.internal` DNS name in Windows.
 
 This works where you have an anonymous service than then uses windows auth to communicate out. If windows auth is required to communicate in, then you're not going to be able to containerise any service that communicates with it. Not in a Unix container at least.
+
+---
+
+[README](Home)
