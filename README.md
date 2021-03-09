@@ -17,6 +17,6 @@ I have a background mainly in dotnet (framework and more recently core), web and
 ### Highlights:
 - [Unit testing, my story](unit-testing-my-story)
 - [Docker, in a corporate environment](docker-in-a-corporate-environment)
-- [Entity Framework and built-in functions](EF-and-built-in-functions.md)
+- [Entity Framework and built-in functions](EF-and-built-in-functions)
 - [Resources](resources)
 - [All articles](https://github.com/laingsimon/blog)
