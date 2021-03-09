@@ -60,3 +60,7 @@ I've seen business set a threshold for expected unit test coverage. This sets an
 
 ### Final comments
 To be clear, I learnt a lot from each experience and job I've had. I learnt whilst on the job, but more so from others around me - I thank you all. Also, I would do things differently now to what I would have done in 2010 and more so again from 2005. That's life, I don't regret what I've done (or didn't do) I've learnt to become better at what I do. Hopefully what I've said here might help you or someone else on their journey too.
+
+---
+
+[README](Home)
