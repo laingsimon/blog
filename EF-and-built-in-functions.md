@@ -2,7 +2,7 @@
 
 Entity Framework is a great tool, it does a really good job of doing a really difficult task. There are lots of ways to configure how it behaves for the user's needs too. Ok, I'm a fan, enough gushing about it.
 
-There are however times where I dispair. Things that on the face of it should be simple and just take a lot longer than you might expect.
+There are however times where I despair. Things that on the face of it should be simple and just take a lot longer than you might expect.
 
 Take database functions. There is the means to customise how it works, but with some caveats. Take built in functions.
 
