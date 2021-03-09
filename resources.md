@@ -24,9 +24,9 @@ I've learnt a lot from the people I've worked with, but as much and in some case
 - Draw.io / diagrams.net
 - Resharper
 - Powershell (my nemesis turned my turn-to scripting tool)
-- Conemu
+- ConEmu
 - Fiddler
-
----
+- Docker
+- [CheckAll](https://github.com/laingsimon/CheckAll)
 
 [README](Home)
