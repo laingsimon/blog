@@ -20,3 +20,4 @@ I have a background mainly in dotnet (framework and more recently core), web and
 - [Entity Framework and built-in functions](EF-and-built-in-functions)
 - [Resources](resources)
 - [All articles](https://github.com/laingsimon/blog)
+- [Git Aliases](GitAliases)
