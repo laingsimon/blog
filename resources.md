@@ -32,5 +32,3 @@ I've learnt a lot from the people I've worked with, but as much and in some case
 - [Fiddler](https://www.telerik.com/fiddler)
 - [Docker](https://www.docker.com/)
 - [CheckAll](https://github.com/laingsimon/CheckAll)
-
-[README](Home)
