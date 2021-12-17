@@ -13,7 +13,7 @@
     k-new-commits = "!gitk origin/$(git branch-name).. &"
     romi = rebase origin/master -i
     rom = rebase origin/master
-    check = !"git add -p $@; white='\\e[0;97m';blue='\\e[0;94m';green='\\e[0;32m';reset='\\e[0m'; IFS=\"\n\"; for line in $(git ls-files -o --exclude-standard); do echo -e \"${white}${line}${reset}\"; echo -e \"${green}$(<$line)${reset}\"; echo -e -n \"${white}${line}${reset}\n${blue}Stage this file [y,n,q,d]? ${reset}\"; read fileaction; if [ $fileaction = \"y\" ]\nthen git add \"${line}\"; elif [ $fileaction = \"q\" ]\nthen break; elif [ $fileaction = \"d\" ]\n then rm "${line}"; fi done; echo ---------------; git status;"
+    check = !"git add -p $@; white='\\e[0;97m';blue='\\e[0;94m';green='\\e[0;32m';reset='\\e[0m'; IFS=\"\n\"; for line in $(git ls-files -o --exclude-standard); do echo -e \"${white}${line}${reset}\"; echo -e \"${green}$(<${line})${reset}\"; echo -e -n \"${white}${line}${reset}\n${blue}Stage this file [y,n,q,d]? ${reset}\"; read fileaction; if [ $fileaction = \"y\" ]\nthen git add \"${line}\"; elif [ $fileaction = \"q\" ]\nthen break; elif [ $fileaction = \"d\" ]\n then rm "${line}"; fi done; echo ---------------; git status;"
 ```
 <!-- {% endraw %} -->
 
