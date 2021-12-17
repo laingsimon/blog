@@ -8,13 +8,13 @@ Take a look at the projects I've kicked off on GitHub if you'd like to get a fla
 
 I have a experience in dotnet (framework and more recently core) and java - developing services, console apps, web and windows applications. 
 
-### Contacts:
+### Contacts
 - [LinkedIn](https://www.linkedin.com/in/simon-laing-780a1b141)
 - [Stack Overflow](https://stackoverflow.com/users/774554/simon-laing)
 - [GitHub](https://github.com/laingsimon)
 - [Scott logic](https://blog.scottlogic.com/slaing/)
 
-### Highlights:
+### Highlights
 - [Resources](resources)
 - [All articles](https://github.com/laingsimon/blog)
 - [Git Aliases](GitAliases)
