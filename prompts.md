@@ -64,4 +64,4 @@ Run the following command.
 setx PROMPT /M $e[32m$D@$T$S$e[33m$P$_$e[0m$G$S
 ```
 
-There is no need to restart the command prompt, the change show show immediately.
+There is no need to restart the command prompt, the change should show immediately.
