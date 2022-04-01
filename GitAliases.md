@@ -34,3 +34,6 @@
 
 ### Internal-alias functions
 - `branch-name` - Get the name of current branch
+
+## See also
+- [Prompts](prompts)
