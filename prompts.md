@@ -20,14 +20,14 @@ Edit `C:\Program Files\Git\etc\profile.d\git-prompt.sh` and modify the lines in 
 ```sh
 if test -f ~/.config/git/git-prompt.sh
 then
-	. ~/.config/git/git-prompt.sh
+    . ~/.config/git/git-prompt.sh
 else
-	PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]'              # set window title
-	PS1="$PS1"'\n'                                      # new line
-	PS1="$PS1"'\[\033[32m\]'                            # change to green
-    PS1="$PS1$(date +%Y-%m-%d)@$(date +%H:%M:%S) "      # date & time in yyyy-MM-dd@HH:mm:ss format
-	PS1="$PS1"'\[\033[33m\]'                            # change to brownish yellow
-	PS1="$PS1"'\w'                                      # current working directory
+    PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]'              # set window title
+    PS1="$PS1"'\n'                                      # new line
+    PS1="$PS1"'\[\033[32m\]'                            # change to green
+    PS1="$PS1"'`date +%Y-%m-%d`'@'`date +%H:%M:%S` '    # date & time in yyyy-MM-dd@HH:mm:ss format
+    PS1="$PS1"'\[\033[33m\]'                            # change to brownish yellow
+    PS1="$PS1"'\w'                                      # current working directory
 ```
 
 Alternatively copy the git-prompt.sh file from the path above to `%userprofile%/.config/git/git-prompt.sh` and modify the content there. This will mean the change is made for your user account rather than everyone on the same computer.
