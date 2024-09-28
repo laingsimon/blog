@@ -51,6 +51,8 @@ Tools I've used:
 - [Jasmine](https://jasmine.github.io/), [Karma](https://karma-runner.github.io/latest/index.html) and [Mocha](https://mochajs.org/)
 - [PhantomJs](https://phantomjs.org/)
 - [JUnit](https://junit.org/junit5/)
+- [Mockito](https://site.mockito.org/)
+- [Jest](https://jestjs.io/)
 - [Cucumber](https://cucumber.io/) and [Specflow](https://specflow.org/)
 
 ### Code coverage note
