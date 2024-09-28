@@ -1,18 +1,18 @@
 # Unit testing, my story
 
-I graduated from a software engineer degree in 2005. Software development was a well understood subject and the industry was booming, great, I landed on my feed.
+I graduated from a software engineer degree in 2005. Software development was a well understood subject and the industry was booming, great, I landed on my feet.
 
 I started off my career in a large business, learning the ropes from others. The real-world ropes, not the academic ones. I had a lot to learn, I didn't appreciate how much until many years later. 
 
-One of the things that I can look back on now is the journey I've taken through unit testing. In 2005 it was next to non existent. The tooling wasn't there for c++ and vb6. If it was then we weren't using it and I simply didn't know to look for it. This is so often the case, unit testing is an after thought to software development. It wasn't taught or even mentioned as part of my degree.
+One of the things that I can look back on now is the journey I've taken through unit testing. In 2005 it was next to non-existent. The tooling wasn't there for c++ and vb6. If it was then we weren't using it and I simply didn't know to look for it. This is so often the case, unit testing is an after thought to software development. It wasn't taught or even mentioned as part of my degree.
 
-Shuffle forward a few years, I've moved into writing managed code, c# and VB.net. frameworks exist for these languages now, but back in the day - circa 2007 - there wasn't. Once again I didn't know to look, but I was starting to change tack. I was noticing that if I could prove my code was correct before too long, then it saved me time. For critical components I would write functions in the production code as a self-test. This isn't something I advise doing now, but at the time I wanted to protect against regression.
+Shuffle forward a few years, I've moved into writing managed code, c# and VB.net. Frameworks exist for these languages now, but back in the day - circa 2007 - there wasn't. Once again I didn't know to look, but I was starting to change tack. I was noticing that if I could prove my code was correct before promptly and reliably, then it saved me time. For critical components I would write functions in the production code as a self-test. This isn't something I advise doing now, but at the time I wanted to protect against regression.
 
 _Little did I know there were tools and frameworks out there._
 
 I moved jobs again to a role where I probably learnt the most in my career. I learnt many things from the people I worked with, but the one thing that has shaped the way I work more than anything is unit testing. I learnt that there are tools out there, how to harness them and approaches to make the most of the practice. I'll be forever in the debt of the people I learnt from.
 
-The time was 2010. I stayed there for about 6 years and in that time the landscape changed for software development, especially in the .net sphere. Microsoft updated visual studio to support unit testing as a first-class citizen. Other testing frameworks became available. Standards started to appear and more crucially it started to be talked about more.
+The time was 2010. I stayed there for about 6 years and in that time the landscape changed for software development, especially in the .net sphere. Microsoft updated Visual Studio to support unit testing as a first-class citizen. Other testing frameworks became available. Standards started to appear and more crucially it started to be talked about more.
 
 Why, simply because *it makes you a better developer*. You write better code and that code is proven to do what you want it to. You can leverage [CI](https://en.m.wikipedia.org/wiki/Continuous_integration) and [CD](https://en.m.wikipedia.org/wiki/Continuous_delivery) pipelines with growing confidence and your velocity increases as a result.
 
@@ -33,7 +33,7 @@ I've written tests to prove, amongst others that:
    * Bespoke integration tests ran on every build
 * There is parity between the original implementation of a library and a modernised version
    * Using docker to build a consistent 'backing environment' for every scenario
-* The application given inputs emits the expected output at the very end
+* The application, given inputs, emits the expected output at the very end
    * End to end tests, see Data helix generator and its end to end cucumber tests
 * The application responds to user input in the right way
    * UI integration tests using selenium and webdriver
