@@ -98,7 +98,7 @@ To implement this you'll need to embed the access logic in the visitor (the tour
 ```csharp
 void BuySomeFudge(CorfeCastle castle)
 {
-   if (castle.Shop.IsOpen && AmIWearingShorts() == false)
+    if (castle.Shop.IsOpen && AmIWearingShorts() == false)
     {
         castle.Shop.BuyFudge();
     }
@@ -106,7 +106,7 @@ void BuySomeFudge(CorfeCastle castle)
 
 void BuySomeFudge(ClitheroeCastle castle)
 {
-   if (castle.GiftShop.IsOpen)
+    if (castle.GiftShop.IsOpen)
     {
         castle.GiftShop.BuyFudge();
     }
@@ -114,7 +114,7 @@ void BuySomeFudge(ClitheroeCastle castle)
 
 void BuySomeFudge(ClitheroeCastle castle)
 {
-   if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
+    if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
     {
         castle.FirstFloorGiftShop.BuyFudge();
     }
@@ -128,7 +128,7 @@ And to better highlight this, let's implement buying a fridge magnet.
 ```csharp
 void BuyAFridgeMagnet(CorfeCastle castle)
 {
-   if (castle.Shop.IsOpen && AmIWearingShorts() == false)
+    if (castle.Shop.IsOpen && AmIWearingShorts() == false)
     {
         castle.Shop.BuyAFridgeMagnet();
     }
@@ -136,7 +136,7 @@ void BuyAFridgeMagnet(CorfeCastle castle)
 
 void BuyAFridgeMagnet(ClitheroeCastle castle)
 {
-   if (castle.GiftShop.IsOpen)
+    if (castle.GiftShop.IsOpen)
     {
         castle.GiftShop.BuyAFridgeMagnet();
     }
@@ -144,7 +144,7 @@ void BuyAFridgeMagnet(ClitheroeCastle castle)
 
 void BuyAFridgeMagnet(ClitheroeCastle castle)
 {
-   if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
+    if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
     {
         castle.FirstFloorGiftShop.BuyAFridgeMagnet();
     }
