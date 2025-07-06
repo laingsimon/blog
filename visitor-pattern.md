@@ -1,7 +1,7 @@
 ## What is the visitor pattern
 To understand the visitor pattern, as with most of [the other design patterns](https://en.m.wikipedia.org/wiki/Software_design_pattern), I find it helps to describe it in real-world terms. To that end imagine you’re a tourist going to visit castles, bear with me, hopefully this will make some sense.
 
-# 🏰
+<center style="font-size: 50px">🏰</center>
 
 So you go to a castle, let's say you go to [Corfe castle in Dorset](https://en.wikipedia.org/wiki/Corfe_Castle), and you want to look in the gift shop. Humour me and imagine for the moment that there isn't a map on site or any form of tour guide that can show you around. You have to wander around looking for the gift shop.
 
