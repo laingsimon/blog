@@ -26,7 +26,7 @@ This is the essence of the visitor pattern, so what does it look like in code?
 ```csharp
 interface IGiftShopVisitor
 {
-    void VisitGiftShop(IGiftShop gitShop);
+    void VisitGiftShop(IGiftShop giftShop);
 }
 
 class CorfeCastle
