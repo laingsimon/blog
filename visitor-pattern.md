@@ -112,7 +112,7 @@ void BuySomeFudge(ClitheroeCastle castle)
     }
 }
 
-void BuySomeFudge(ClitheroeCastle castle)
+void BuySomeFudge(CaernarfonCastle castle)
 {
     if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
     {
@@ -142,7 +142,7 @@ void BuyAFridgeMagnet(ClitheroeCastle castle)
     }
 }
 
-void BuyAFridgeMagnet(ClitheroeCastle castle)
+void BuyAFridgeMagnet(CaernarfonCastle castle)
 {
     if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
     {
