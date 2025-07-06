@@ -64,7 +64,7 @@ class ClitheroeCastle
 
     void Accept(IGiftShopVisitor visitor)
     {
-         if (IsGifShopOpen() == true)
+         if (IsGiftShopOpen() == true)
          {
               visitor.VisitGiftShop(m_GiftShop);
          }
@@ -77,7 +77,7 @@ class CaernarfonCastle
 
     void Accept(IGiftShopVisitor visitor)
     {
-         if (IsGifShopOpen() == true && IsShopPerformingStockTake() == false)
+         if (IsGiftShopOpen() == true && IsShopPerformingStockTake() == false)
          {
               visitor.VisitGiftShop(m_FirstFloorGiftShop);
          }
