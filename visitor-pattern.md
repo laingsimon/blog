@@ -35,7 +35,7 @@ class CorfeCastle
 
     void Accept(IGiftShopVisitor visitor)
     {
-         if (IsGiftShopOpen() == true && IsTouristWearingShorts() == false)
+         if (IsGiftShopOpen() && !IsTouristWearingShorts())
          {
               visitor.VisitGiftShop(m_Shop);
          }
@@ -64,7 +64,7 @@ class ClitheroeCastle
 
     void Accept(IGiftShopVisitor visitor)
     {
-         if (IsGiftShopOpen() == true)
+         if (IsGiftShopOpen())
          {
               visitor.VisitGiftShop(m_GiftShop);
          }
@@ -77,7 +77,7 @@ class CaernarfonCastle
 
     void Accept(IGiftShopVisitor visitor)
     {
-         if (IsGiftShopOpen() == true && IsShopPerformingStockTake() == false)
+         if (IsGiftShopOpen() && !IsShopPerformingStockTake())
          {
               visitor.VisitGiftShop(m_FirstFloorGiftShop);
          }
@@ -98,7 +98,7 @@ To implement this you'll need to embed the access logic in the visitor (the tour
 ```csharp
 void BuySomeFudge(CorfeCastle castle)
 {
-    if (castle.Shop.IsOpen && AmIWearingShorts() == false)
+    if (castle.Shop.IsOpen && AmIWearingShorts())
     {
         castle.Shop.BuyFudge();
     }
@@ -114,7 +114,7 @@ void BuySomeFudge(ClitheroeCastle castle)
 
 void BuySomeFudge(CaernarfonCastle castle)
 {
-    if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
+    if (castle.FirstFloorGiftShop.IsOpen && !castle.FirstFloorGiftShop.IsPerformingStockTake)
     {
         castle.FirstFloorGiftShop.BuyFudge();
     }
@@ -128,7 +128,7 @@ And to better highlight this, let's implement buying a fridge magnet.
 ```csharp
 void BuyAFridgeMagnet(CorfeCastle castle)
 {
-    if (castle.Shop.IsOpen && AmIWearingShorts() == false)
+    if (castle.Shop.IsOpen && !AmIWearingShorts())
     {
         castle.Shop.BuyAFridgeMagnet();
     }
@@ -144,7 +144,7 @@ void BuyAFridgeMagnet(ClitheroeCastle castle)
 
 void BuyAFridgeMagnet(CaernarfonCastle castle)
 {
-    if (castle.FirstFloorGiftShop.IsOpen && castle.FirstFloorGiftShop.IsPerformingStockTake == false)
+    if (castle.FirstFloorGiftShop.IsOpen && !castle.FirstFloorGiftShop.IsPerformingStockTake)
     {
         castle.FirstFloorGiftShop.BuyAFridgeMagnet();
     }
@@ -171,12 +171,12 @@ class CranmoreSteamRailway
 
     void Accept(IGiftShopVisitor visitor)
     {
-         if (IsGiftShopOpen() == true)
+         if (IsGiftShopOpen())
          {
               visitor.VisitGiftShop(m_StationGiftShop);
          }
 
-         if (IsTrainMoving() == true)
+         if (IsTrainMoving())
          {
               visitor.VisitGiftShop(m_TrainGiftShop);
          }
@@ -214,12 +214,12 @@ class ColchesterCastle
 
     void Accept(ITouristVisitor visitor)
     {
-         if (IsGiftShopOpen() == true)
+         if (IsGiftShopOpen())
          {
               visitor.VisitGiftShop(m_GiftShop);
          }
 
-         if (IsCafeOpen() == true)
+         if (IsCafeOpen())
          {
              visitor.VisitCafe(m_Cafe);
          }
