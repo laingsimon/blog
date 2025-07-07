@@ -1,7 +1,7 @@
 ## What is the visitor pattern
 To understand the visitor pattern, as with most of [the other design patterns](https://en.m.wikipedia.org/wiki/Software_design_pattern), I find it helps to describe it in real-world terms. To that end imagine you’re a tourist going to visit castles, bear with me, hopefully this will make some sense.
 
-<center style="font-size: 50px">🏰</center>
+<center style="font-size: 100px">🏰</center>
 
 So you go to a castle, let's say you go to [Corfe castle in Dorset](https://en.wikipedia.org/wiki/Corfe_Castle), and you want to look in the gift shop. Humour me and imagine for the moment that there isn't a map on site or any form of tour guide that can show you around. You have to wander around looking for the gift shop.
 
@@ -247,7 +247,7 @@ Imagine for a moment that you want to buy a fridge magnet at every castle gift s
 ```csharp
 class BuyAFridgeMagnetVisitor : IGiftShopVisitor
 {
-    public readonly List<FridgeMagnet> FridgeMagnets { get; } = new();
+    public List<FridgeMagnet> FridgeMagnets { get; } = new();
 
     public void VisitGiftShop(GiftShop giftShop)
     {
@@ -263,6 +263,8 @@ foreach (car castle in castles)
 }
 var allTheMagnets = visitor.FridgeMagnets;
 ```
+
+This approach mat seem a little jarring at first but it further cements the responsibilites. The visitor (the tourist) buys and keeps the magnets.
 
 See the following for extra reading or some real world examples
 - [The expression visitor](https://learn.microsoft.com/en-us/dotnet/api/system.linq.expressions.expressionvisitor?view=net-9.0)
