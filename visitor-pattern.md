@@ -157,10 +157,11 @@ With this style each implementation could choose to ignore certain rules too⁴.
 
 You also have to break [encapsulation](https://en.m.wikipedia.org/wiki/Encapsulation_(computer_programming)), the gift shop has to be made accessible to all, even if it is a private detail of the castle². Same goes for whether they are performing a stock take. It isn't something that should be in the public domain, but with this approach it has to be²,⁴.
 
-Taking it further…
+### Taking it further…
+
 To illustrate further, here is how using the visitor pattern allows you to extend the model and capability with limited effort and code.
 
-Visiting different types of subjects
+#### Visiting different types of subjects
 
 ```csharp
 class CranmoreSteamRailway
@@ -184,7 +185,7 @@ class CranmoreSteamRailway
 }
 ```
 
-Visiting different components of a subject.
+#### Visiting different components of a subject.
 
 ```csharp
 interface ITouristVisitor
