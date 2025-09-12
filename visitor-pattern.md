@@ -31,7 +31,7 @@ interface IGiftShopVisitor
 
 class CorfeCastle
 {
-    private GiftShop m_Shop;
+    private IGiftShop m_Shop;
 
     void Accept(IGiftShopVisitor visitor)
     {
@@ -60,7 +60,7 @@ class AlwaysBuysFudge : IGiftShopVisitor
 
 class ClitheroeCastle
 {
-    private GiftShop m_GiftShop;
+    private IGiftShop m_GiftShop;
 
     void Accept(IGiftShopVisitor visitor)
     {
@@ -73,7 +73,7 @@ class ClitheroeCastle
 
 class CaernarfonCastle
 {
-    private GiftShop m_FirstFloorGiftShop;
+    private IGiftShop m_FirstFloorGiftShop;
 
     void Accept(IGiftShopVisitor visitor)
     {
