@@ -166,8 +166,8 @@ To illustrate further, here is how using the visitor pattern allows you to exten
 ```csharp
 class CranmoreSteamRailway
 {
-    private GiftShop m_StationGiftShop;
-    private GiftShop m_TrainGiftShop;
+    private IGiftShop m_StationGiftShop;
+    private IGiftShop m_TrainGiftShop;
 
     void Accept(IGiftShopVisitor visitor)
     {
@@ -208,7 +208,7 @@ interface ITouristVisitor
 
 class ColchesterCastle
 {
-    private GiftShop m_GiftShop;
+    private IGiftShop m_GiftShop;
     private Cafe m_Cafe;
     private Reception m_Reception;
 
