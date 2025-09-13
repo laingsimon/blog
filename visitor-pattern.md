@@ -5,9 +5,9 @@ To understand the visitor pattern, as with most of [the other design patterns](h
 
 So you go to a castle, let's say you go to [Corfe castle in Dorset](https://en.wikipedia.org/wiki/Corfe_Castle), and you want to look in the gift shop. Humour me and imagine for the moment that there isn't a map on site or any form of tour guide that can show you around. You have to wander around looking for the gift shop.
 
-So, you wander around Corfe castle and you happen upon the gift shop. Are you allowed to go in? Is it within the opening hours? Are they performing a stock take? The only way to know is to ask a member of staff. They tell you it is open between 9 and 5 on weekdays and you can't go in if you're wearing shorts. So right now, you can go in, but ultimately it's [the castle that permits you](https://en.m.wikipedia.org/wiki/Role-based_access_control) to do so.
+So, you wander around Corfe castle and you happen upon the gift shop. Are you allowed to go in? Is it within the opening hours? Are they performing a stock take? The only way to know is to ask a member of staff. They tell you it is open between 9 and 5 on weekdays and you can't go in if you're wearing shorts. So right now, you can go in, but ultimately it's [the castle that permits you](https://en.m.wikipedia.org/wiki/Role-based_access_control) access.
 
-Great, you can go to Corfe castle anytime you want and you know whether you can go into the gift shop. You've got cough castle sussed!
+Great, you can go to Corfe castle anytime you want and you know whether you can go into the gift shop. You've got Corfe castle sussed!
 
 Now you want to go to a different castle, let's say [Clitheroe in the north of England](https://en.wikipedia.org/wiki/Clitheroe), and look at their gift shop. But where is it? What are the conditions of entry? The only people who know are those who run Clitheroe castle; you've got to find it all out. You’ve got to start from square one again with this castle. If you go to a another castle, say [Caernarfon castle in North Wales](https://en.m.wikipedia.org/wiki/Caernarfon_Castle), you have to repeat the same steps again. Then each time you, a single tourist, knows where and under what conditions you can enter each gift shop. The next tourist has to learn this out for themselves, from scratch.
 
